@@ -1,6 +1,6 @@
 "use client";
-import Particles from '@tsparticles/react'
-import particlesConfig from './config/particles.config'
+import Particles from "@tsparticles/react"
+import particlesConfig from "./config/particles.config"
 
 const ParticlesBackground = () => {
   return (
