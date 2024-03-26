@@ -1,24 +1,24 @@
 "use client";
-import React from 'react'
+import React from "react"
 import Image from "next/image";
-import { TypeAnimation } from 'react-type-animation';
-import Link from 'next/link';
+import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
 
     <>
-    <section className='lg:py-16'>
+    <section className="lg:py-16">
      <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-green-400 to-yellow-200">Hello, I'm {""}</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 via-green-400 to-yellow-200">Hello, I"m {""}</span>
                 <br /><br/>
                 <TypeAnimation
                     sequence={[
-                     'Software Developer',
+                     "Software Developer",
                      1000,
-                     'Web Developer',
+                     "Web Developer",
                      1000
                     ]}
                     wrapper="span"
@@ -26,7 +26,7 @@ const HeroSection = () => {
                     repeat={Infinity}
                 />
             </h1>
-            <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
+            <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia velit nemo ipsam voluptate tempora rem sunt, eius, quos rerum eligendi voluptas magnam laudantium quis debitis laboriosam doloribus beatae molestiae delectus fugiat!
             </p>
             <div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
             <Image
                 src="/images/face2-1.png"
                 alt="hero image"
-                className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={350}
                 height={350}
             />
